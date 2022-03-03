@@ -88,7 +88,7 @@
     .right-bg img{
         position: absolute !important;
         right: 45px !important;
-        margin-top: 20px;
+        margin-top: -10px;
         width: 45% !important;
     }
     .about-section .small-icon2{
