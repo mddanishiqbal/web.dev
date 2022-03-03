@@ -1,0 +1,546 @@
+
+
+/** Responsive start **/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    .site-branding a img{
+        width: 50px;
+        margin-right: 15px;
+    }
+    .mdi .site-description {
+        font-size: 30px;
+        margin-top: 2px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .codebox{
+        margin-top: 40px;
+        padding-right: 20px !important;
+    }
+    .codebox textarea{
+        max-width: 90%;
+        font-size: 12px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-right: 20px !important;
+    }
+    .site-branding a img{
+        width: 50px;
+        margin-right: 15px;
+    }
+    .mdi .site-description {
+        font-size: 30px;
+        margin-top: 2px;
+    }
+    .mdi span{
+        font-size: 8px;
+        letter-spacing: 1px;
+        margin-left: -5px;
+    }
+    .header-banner h1{
+        font-size: 22px;
+    }
+    .header-section .small-icon5{
+        width: 20px !important;
+        position: absolute;
+        bottom: 60px;
+        left: 10px !important;
+        opacity: 0.3;
+    }
+    .header-col{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .right-col{
+        flex-basis: 100% !important;
+    }
+    .text-box{
+        margin-top: -16px !important;
+        padding: 0px 6px 0px 12px  !important;
+    }
+    .text-box h5{
+        font-size: 14px !important;
+    }
+    .text-box h5 i{
+        font-size: 12px !important;
+    }
+    .text-box h1{
+        font-size: 17px !important;
+        line-height: 26px !important;
+        margin-top: 5px !important;
+    }
+    .text-box p{
+        font-size: 14px !important;
+        margin-bottom: 20px !important;
+    }
+    .text-box a{
+        font-size: 11px !important;
+        padding: 8px 18px 8px 18px !important;
+        letter-spacing: 2px !important;
+        background: #000000;
+        margin-right: 12px !important;
+    }
+    .second-btn{
+        font-size: 11px !important;
+        padding: 10px 20px 10px 20px !important;
+        letter-spacing: 2px !important;
+    }
+    .right-bg img{
+        position: absolute !important;
+        right: 30px !important;
+        margin-top: -30px;
+        width: 45% !important;
+    }
+    .about-section .small-icon2{
+        width: 20px !important;
+        position: absolute !important;
+        right: 20px !important;
+        top: -20px !important;
+        opacity: 0.3 !important;
+    }
+    .about-section .small-icon4{
+        width: 250px !important;
+        position: absolute !important;
+        top: -40px !important;
+        left: -140px !important;
+        opacity: 0.4 !important;
+    }
+
+    /** website carousel **/
+    .website-carousel-area{
+        margin-top: 0px;
+    }
+    .website-carousel-area .slide{
+        margin-right: 0px !important;
+    }
+    .website-carousel-area .slide img{
+        width: 100%;
+        opacity: 1;
+    }
+
+    /** New services section begin **/
+    .content {
+        margin-top: 5px;
+    }
+    .carousel-nav {
+        margin-bottom: 20px; 
+    }
+    .carousel-nav a {
+        font-size: 9px;
+        font-weight: 600;
+        color: #383838;
+        font-family: sans-serif;
+        letter-spacing: 0px;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+    .media-29101 .text h1 {
+        font-size: 14px !important;
+        letter-spacing: 2px !important;
+        padding: 7px 0px 7px 20px !important;
+        display: flex !important;
+        margin-right: 3px;
+        margin-top: 5px;
+    }
+    .media-29101 .text h1 img{
+        width: 19px !important;
+        height: 18px !important;
+        -webkit-width: 19px !important;
+        -webkit-height: 18px !important;
+        margin-right: 10px !important;
+        margin-top: -1px !important;
+    }
+    /** New services section over **/
+
+    /* services section */
+    .services{
+        margin-top: 50px !important;
+    }
+    .ser-mobile-details{
+        margin-top: -50px;
+    }
+    .service-title{
+        margin-bottom: 0px;
+    }
+    .service-title h1{
+        font-size: 16px !important;
+        width: 98%;
+    }
+    .service-title h5{
+        font-size: 26px !important;
+    }
+    .service-title p img{
+        margin-top: -13px;
+        width: 120px;
+    }
+    .service-details h5{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .service-details h5 i{
+        font-size: 18px;
+    }
+    .service-details p{
+        font-size: 15px;
+    }
+    .service-details h1{
+        font-size: 14px;
+        padding: 12px 0px 12px 0px;
+    }
+    .service-img{
+        margin-top: 20px;
+    }
+    .services .second-row{
+        margin-top: 40px;
+    }
+    .about-section{
+        margin-top: 70px;
+        padding: 60px 20px 60px 20px;
+    }
+    .about-box{
+        margin-top: -45px;
+    }
+    .about-box h5{
+        font-size: 20px;
+    }
+    .about-box i{
+        font-size: 16px;
+    }
+    .about-box h1{
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+    .about-box p{
+        font-size: 15px;
+    }
+    .about-section .small-icon4{
+        width: 200px !important;
+        position: absolute;
+        top: -40px;
+        left: -110px !important;
+        opacity: 0.4;
+    }
+    .skill-mf{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .progress-details {
+        margin: 1px 0px 0px 0px !important;
+    }
+    .progress-details .col-md-12{
+        margin-bottom: 20px !important;
+    }
+    .header-banner .extra-link a{
+        font-size: 12px;
+    }
+    .header-banner .extra-link span{
+        font-size: 14px;
+    }
+    .header-section .header-map{
+        top: 18%;
+        left: 20%;
+    }
+    .skill-mf span {
+        font-size: 13px;
+    }
+
+    /** Portfolio section start **/
+    .portfolio {
+        padding-top: 30px;
+    }
+    .w-title {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .work-content .portfolio-name a{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .portfolio .title-background{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .portfolio .title-background h1{
+        font-size: 118px;
+        margin-top: 60px !important;
+    }
+    .about-us{
+        margin-top: 30px;
+        padding: 30px 8px 30px 8px;
+    }
+    .about-us .service-title h5{
+        font-size: 26px !important;
+    }
+    .about-us .title-background h1{
+        font-size: 100px;
+        margin-top: 0px !important;
+    }
+    .about-us .title-background{
+        top: 10% !important;
+    }
+    .about-us .about-details{
+        padding-top: 0px;
+    }
+    .skill-mf{
+        padding-top: 0px;
+        margin-top: -6px;
+    }
+    .portfolio .portfolio-text{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .portfolio-page .portfolio-details{
+        padding-right: 20px;
+        margin-top: -20px;
+    }
+    .portfolio-page h1{
+        font-size: 20px;
+    }
+    .portfolio-page .post-user{
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .portfolio-page .post-user p{
+        font-size: 11px;
+    }
+    .portfolio-page .post-user .user-name{
+        margin-right: 0px;
+    }
+    .portfolio-page .hr-line{
+        margin-top: 20px;
+    }
+    .portfolio-page .post-text p,
+    .portfolio-page .html-details p{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .portfolio-page .post-code-title{
+        margin-top: 15px;
+    }
+    .portfolio-page .post-code-title h1{
+        font-size: 15px;
+    }
+    .portfolio-page .html-code{
+        margin-top: 15px;
+    }
+    .portfolio-page .html-code xmp{
+        font-size: 12px;
+    }
+    .portfolio-page .download-btn{
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+    .portfolio-page .download-btn a{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .recent-work{
+        margin-top: 40px;
+    }
+    .related-work{
+        margin-top: -10px;
+    }
+    .related-work .related-title h1{
+        font-size: 22px !important;
+    }
+    .class-thumb{
+	margin-bottom: 20px;
+    }
+    /** Portfolio section end **/
+
+    /** Custom add start **/
+    .custom-add .inner-content p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .custom-add .inner-content h4 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .custom-add .inner-content .col-md-4 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    /** Custom add end **/
+
+    /**Testimonial section begin **/
+    .testimonial-section{
+        padding-top: 40px;
+    }
+    .testimonial-section .title-background h1{
+        font-size: 50px;
+        font-weight: 800;
+        margin-top: -95px !important;
+    }
+    .testimonial-section .img-box{
+        height: 100px;
+        width: 100px;
+    }
+    .testimonial-section .img-box::before{
+        height: 130px;
+        width: 130px;
+    }
+    .testimonial-section .img-box::after{
+        height: 160px;
+        width: 160px;
+    }
+    .testimonial-section .decoration-imgs-item:nth-child(1){
+        height: 50px;
+        width: 50px;
+        left: 4%;
+        top: 33%;
+    }
+    .testimonial-section .decoration-imgs-item:nth-child(2){
+        height: 60px;
+        width: 60px;
+        left: 76%;
+        top: 13%;
+    }
+    .testimonial-section .decoration-imgs-item:nth-child(3){
+        height: 40px;
+        width: 40px;
+        left: 10%;
+        top: 10%;
+    }
+    .testimonial-item h3{
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+    .testimonial-item .text-1{
+        font-size: 14px !important;
+        margin-top: 10px;
+    }
+    .testimonial-section .carousel-control-prev,
+    .testimonial-section .carousel-control-next{
+        top: -180px;
+}
+    /**Testimonial section over **/
+
+    /** Contact section begin **/
+    .info-wrap h5 {
+        font-size: 20px;
+    }
+    .info-wrap i{
+        font-size: 15px;
+    }
+    .info-wrap .dbox .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .info-wrap .dbox .icon span {
+        font-size: 15px;
+        color: #daa520;
+    }
+    /** Contact section over **/
+
+    /** Language logo slider begin **/
+    .language{
+        padding-bottom: 30px;
+        margin-top: -30px;
+    }
+    .language img{
+        opacity: .5;
+    }
+    /** Language logo slider over **/
+
+    /** website slider **/
+    .website-carousel{
+        margin: 2% 3.3% 0% 3.3%;
+    }
+    .website-carousel .slide img{
+        width: 100%;
+    }
+
+    /** Footer section begin **/
+    .site-footer img{
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    .site-footer h1 {
+        font-size: 14px;
+    }
+    /** Footer section over **/
+
+    /** web packages and services begin **/
+    .web-packages{
+        padding: 20px 5px 0px 5px;
+    }
+    .web-packages img{
+        width: 60px;
+        margin-top: 20px;
+    }
+    .web-packages h2{
+        font-size: 20px;
+    }
+    .web-packages p{
+        font-size: 14px;
+    }
+    .web-packages .right-web{
+        text-align: left;
+    }
+    .web-packages .right-web .web-details h2{
+        text-align: left;
+    }
+    .web-packages .right-web .web-details p{
+        text-align: left;
+    }
+    /** web packages and services over **/
+	.spad{
+		margin-top: -70px;
+	}
+	.website-add img{
+		width: 100%;
+	}
+	.communicate{
+		margin-top: 5px;
+	}
+	.quick-contact{
+		margin-top: 40px !important;
+	}
+	.slick-slide img{
+		max-width: 100%;
+	}
+	.work__item.wide__item {
+		width: 100%;
+	}
+	.work__item {
+		width: 100%;
+		margin-right: 0;
+	}
+	.work__item.large__item {
+		width: 100%;
+	}
+	.work__item.small__item {
+		max-width: 100vw;
+		background-size: cover;
+	}
+	.work__gallery {
+		margin-right: 0;
+	}
+	.work-section{
+		margin-top: -10px;
+	}
+	.swiper-section{
+		margin-top: 30px !important;
+	}
+	.photo-classes {
+		margin-top: 0px;
+	}
+	.team{
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 812px) {
+    .header-section{
+        height: 100vh !important;
+    }
+    .right-bg img{
+        top: 64px !important;
+    }
+  }
+/** Responsive end **/

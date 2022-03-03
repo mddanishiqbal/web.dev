@@ -1,0 +1,93 @@
+.header-section{
+	background-color: #e2aa3bcb;
+	background-image: linear-gradient(315deg, #e2aa3bcb 0%, #58441a 74%);
+}
+.about-us{
+	background-color: #ca98345d;
+}
+.style-switcher-toggler,
+.progress-details .progress-line,
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next{
+	background-color: #CA9834;
+}
+.main-navigation a,
+.carousel-nav a{
+	color: #dfa023;
+}
+.main-navigation a:hover {
+	border-top: 2px solid #CA9834;
+	border-bottom: 2px solid #CA9834;
+	color: #CA9834 !important;
+}
+.main-navigation a.active {
+	border-top: 2px solid #CA9834;
+	border-bottom: 2px solid #CA9834;
+	color: #CA9834 !important;
+}
+.text-box a{
+	color: #eee;
+	background: #a07520;
+}
+.text-box a:hover{
+	color: #a07520;
+	background: #eee;
+}
+.text-box .second-btn{
+	color: #a07520;
+	background: #eee;
+}
+.text-box .second-btn:hover{
+	color: #eee;
+	background: #a07520;
+}
+.class-info h3,
+.class-info p a,
+.testimonial-item h3{
+    color: #CA9834;
+}
+.progress-details {
+	background-color: #ca98347c;
+}
+.carousel-nav a:hover {
+	color: #CA9834;
+}
+.carousel-nav a.active {
+	color: #CA9834;
+}
+.carousel-nav a.active:before {
+	border-bottom: 1px solid #CA9834;
+}
+.media-29101 .text .category {
+	color: #CA9834;
+}
+.media-29101 .text h1 {
+	color: #CA9834;
+	border-left: 4px solid #CA9834;
+}
+.service-title h5{
+    color: #CA9834;
+}
+.portfolio .title-background h1,
+.about-us .title-background h1,
+.testimonial-section .title-background h1{
+	color: #CA9834;
+}
+.service-title h1 a{
+	color: #CA9834;
+}
+.testimonial-section .img-box,
+.testimonial-section .decoration-imgs-item,
+.testimonial-section .decoration-circle-item{
+	background: #CA9834;
+}
+.testimonial-section .img-box::before,
+.testimonial-section .img-box::after{
+	border: 1px solid #CA9834;
+}
+.testimonial-section .img-box::before{
+	border-left: 1px solid transparent;
+}
+.testimonial-section .img-box::after{
+	border-right: 1px solid transparent;
+}

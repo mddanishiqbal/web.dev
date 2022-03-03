@@ -1,0 +1,103 @@
+.main-navigation {
+	border-top: 2px solid #585858;
+	border-bottom: 2px solid #585858;
+}
+.header-section{
+	background-color: #353535;
+	background-image: linear-gradient(147deg, #2e2e2e 0%, #d7d7d793 74%);
+}
+.about-us{
+	background-color: #58585857;
+}
+.style-switcher-toggler,
+.progress-details .progress-line,
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next{
+	background-color: #434343;
+}
+.carousel-nav a,
+.media-29101 .text .category,
+.class-info h3,
+.class-info p a,
+.testimonial-item h3,
+.w-title,
+.work-content .w-more h1 a,
+.work-content .portfolio-name a{
+	color: #919191;
+}
+.main-navigation a{
+	color: #585858 !important;
+}
+.main-navigation a:hover {
+	border-top: 2px solid #919191;
+	border-bottom: 2px solid #919191;
+	color: #919191 !important;
+}
+.main-navigation a.active {
+	border-top: 2px solid #919191;
+	border-bottom: 2px solid #919191;
+	color: #919191 !important;
+}
+.text-box a{
+	color: #eee;
+	background: #434343;
+}
+.text-box a:hover{
+	color: #434343;
+	background: #eee;
+}
+.text-box .second-btn{
+	color: #434343;
+	background: #eee;
+}
+.text-box .second-btn:hover{
+	color: #eee;
+	background: #434343;
+}
+
+.progress-details {
+	background-color: #58585870;
+}
+.carousel-nav a:hover {
+	color: #585858;
+}
+.carousel-nav a.active {
+	color: #686868;
+}
+.carousel-nav a.active:before {
+	border-bottom: 1px solid #686868;
+}
+.media-29101 .text h1 {
+	background: #d3d3d3c4;
+	color: rgb(65, 65, 65);
+	border-left: 4px solid #919191;
+}
+.service-title h5,
+.section-subtitle{
+    color: #919191;
+}
+.portfolio .title-background h1,
+.about-us .title-background h1,
+.testimonial-section .title-background h1,
+.content .text span,
+.specs .website-process h1{
+	color: #919191;
+}
+.service-title h1 a{
+	color: #919191;
+}
+.testimonial-section .img-box,
+.testimonial-section .decoration-imgs-item,
+.testimonial-section .decoration-circle-item{
+	background: #585858;
+}
+.testimonial-section .img-box::before,
+.testimonial-section .img-box::after{
+	border: 1px solid #585858;
+}
+.testimonial-section .img-box::before{
+	border-left: 1px solid transparent;
+}
+.testimonial-section .img-box::after{
+	border-right: 1px solid transparent;
+}
