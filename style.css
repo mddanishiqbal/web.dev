@@ -11,7 +11,7 @@
 
 /**  Global style  **/
 body.t-dark{
-	background: rgb(17, 17, 17);
+	background: #1D1D1D;
 	color: rgb(233, 233, 233);
 	--black-70: hsl(0, 0%, 87%);
 	--black-90: hsl(0, 0%, 100%);
@@ -395,6 +395,9 @@ a:active,a:focus {
 	margin-top: 50px;
 	margin-bottom: 40px !important;
 }
+.specs .text-right{
+	text-align: right;
+}
 .specs .website-process h1{
 	font-size: 30px;
 	font-weight: 600;
@@ -414,6 +417,7 @@ a:active,a:focus {
 .specs .website-process p{
 	font-size: 15px;
 	font-weight: 600;
+	text-align: left;
 }
 .specs .img-wrapper {
 	position: relative; 
@@ -957,17 +961,17 @@ button.learn-more a {
 /** About us section begin **/
 .about-us{
 	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; */
 	padding: 45px 15px 35px 20px;
 	border-radius: 5px;
 	margin-top: 90px;
+	box-shadow: #87cdff 1.95px 1.95px 8px;
+	/* box-shadow: #87cdff 0px 4px 20px; */
 }
 .about-us .title-background{
 	position: absolute;
-	left: 50%;
-	top: 55% !important;
-	transform: translate(-50%, -50%);
-	margin-right: 4% !important;
+	right: 40px;
+	bottom: -30px;
 }
 .about-us .title-background h1{
 	font-size: 300px;
