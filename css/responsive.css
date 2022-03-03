@@ -91,6 +91,12 @@
         margin-top: -10px;
         width: 45% !important;
     }
+    .content .text span{
+        position: absolute;
+        top: 335px;
+        left: 0px;
+        font-size: 90px;
+    }
     .about-section .small-icon2{
         width: 20px !important;
         position: absolute !important;
@@ -126,7 +132,7 @@
         margin-bottom: 20px; 
     }
     .carousel-nav a {
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 600;
         color: #383838;
         font-family: sans-serif;
@@ -135,9 +141,9 @@
         text-align: center;
     }
     .media-29101 .text h1 {
-        font-size: 14px !important;
-        letter-spacing: 2px !important;
-        padding: 7px 0px 7px 20px !important;
+        font-size: 11px !important;
+        letter-spacing: 1px !important;
+        padding: 6px 0px 6px 10px !important;
         display: flex !important;
         margin-right: 3px;
         margin-top: 5px;
@@ -151,6 +157,35 @@
         margin-top: -1px !important;
     }
     /** New services section over **/
+
+
+    /** About Me In Short Start **/
+    .specs{
+        margin-top: 0px;
+        margin-bottom: 30px !important;
+    }
+    .specs .text-left{
+        margin-top: -50px;
+    }
+    .specs .text-right{
+        margin-top: 80px !important;
+    }
+    .specs .img-wrapper .absolute {
+        left: 0px;
+    }
+    .specs .img-wrapper .laptop-img{
+        width: 82%;
+    }
+    .specs .img-wrapper .tablet-img{
+        width: 48%;
+        margin-left: -30px !important;
+    }
+    .section-subtitle {
+        margin: 20px 0 0;
+        font-size: 28px !important;
+        line-height: 32px;
+    }
+    /** About Me In Short End **/
 
     /* services section */
     .services{
@@ -267,7 +302,7 @@
         margin-top: 60px !important;
     }
     .about-us{
-        margin-top: 30px;
+        margin-top: -50px;
         padding: 30px 8px 30px 8px;
     }
     .about-us .service-title h5{
@@ -286,6 +321,8 @@
     .skill-mf{
         padding-top: 0px;
         margin-top: -6px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
     .portfolio .portfolio-text{
         font-size: 22px;
