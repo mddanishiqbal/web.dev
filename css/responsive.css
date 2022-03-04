@@ -391,23 +391,32 @@
     /** Portfolio section end **/
 
     /** Custom add start **/
+    .custom-add{
+        margin-top: -130px;
+        padding: 40px 0px 60px 0px;
+    }
     .custom-add .inner-content p {
-        font-size: 10px;
+        font-size: 30px;
         text-align: center;
     }
     .custom-add .inner-content h4 {
-        font-size: 17px;
+        font-size: 15px;
         text-align: center;
     }
     .custom-add .inner-content .col-md-4 {
         text-align: center;
         margin-top: 30px;
     }
+    .custom-add .inner-content a {
+        padding: 8px 20px 8px 20px;
+        margin-right: 0px;
+    }
     /** Custom add end **/
 
     /**Testimonial section begin **/
     .testimonial-section{
-        padding-top: 40px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     .testimonial-section .title-background h1{
         font-size: 50px;
@@ -451,11 +460,11 @@
     }
     .testimonial-item .text-1{
         font-size: 14px !important;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     .testimonial-section .carousel-control-prev,
     .testimonial-section .carousel-control-next{
-        top: -180px;
+        top: -150px;
 }
     /**Testimonial section over **/
 
