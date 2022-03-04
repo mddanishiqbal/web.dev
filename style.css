@@ -1035,28 +1035,43 @@ button.learn-more a {
 /** Custom Add Start **/
 .custom-add{
 	padding: 60px 30px 60px 30px;
-	background: linear-gradient(rgba(0, 0, 0, 0.863)100%, rgba(0, 0, 0, 0.938)100%) ,url('./Images/add-banner.jpg') no-repeat center center fixed;
-	background-size: cover;
-	background-position: top;
+	box-shadow: rgba(76, 222, 248, 0.432) 1.95px 1.95px 2.6px;
+	background: #ddf1ff;
 	border-radius: 4px;
+	transform: translateY(15%);
+	margin-top: -10%;
+	z-index: 100;
 }
 .custom-add .inner-content h4 {
-	font-size: 40px;
-	color: #e0e0e0;
+	color: rgb(46, 46, 46);
 	margin-bottom: 0px;
-	letter-spacing: 1px;
+	font-size: 17px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.custom-add .inner-content h4 a{
+	font-size: 15px;
+	color: #eee;
+	background: none;
+	padding: 0px;
+	letter-spacing: 0px;
+	text-transform: none;
+	margin-right: 0px;
+	text-decoration: none;
+	list-style: none;
 }
 .custom-add .inner-content h4 strong{
 	font-weight: 600;
 	color: #daa520;
 }
 .custom-add .inner-content p {
-	color: #dbdbdb;
-	font-family: 'Cinzel', serif;
+	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-family: 'Cinzel', serif;
-	font-size: 16px;
+	text-transform: capitalize;
+	font-size: 40px;
+	font-weight: 700;
+	color: rgb(46, 46, 46);
 }
 .custom-add .inner-content em {
 	font-style: normal;
@@ -1065,13 +1080,12 @@ button.learn-more a {
 
 .custom-add .inner-content .col-md-4 {
 	text-align: right;
-	margin-top: 30px;
+	margin-top: 55px;
 }
 
 .custom-add .inner-content a {
 	font-size: 12px;
 	color: #eee;
-	background: #daa520;
 	padding: 12px 20px 12px 20px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -2808,7 +2822,7 @@ a.smoothup {
 }
 /*--------------------------------------------------------------12.0 Footer--------------------------------------------------------------*/
 .site-footer {
-	padding: 40px 0px 40px 0px;
+	padding: 100px 0px 50px 0px;
 	text-align:center;
 	background-color: #202020;
 	color:#999;
@@ -3495,11 +3509,10 @@ a.button {
 .genericon-collapse:before {
 	position: absolute;
 	content:'\f432';
-	background: rgb(236, 236, 236);
-	box-shadow: 0 0 5px #888;
 	border-radius: 4px;
 	right: 10px;
-	color: #888;
+	color: #fff;
+	z-index: 100;
 	padding: 3px 2px 3px 5px;
 }
 .genericon-dropdown:before {
