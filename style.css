@@ -86,7 +86,7 @@ a:active,a:focus {
 	background: #fff;
 	right: -250px;
 	top: 0%;
-	z-index: 10;
+	z-index: 100;
 	padding: 30px;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 	transition: right 0.3s ease;
