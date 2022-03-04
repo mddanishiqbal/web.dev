@@ -9,9 +9,10 @@
 }
 .about-us{
 	background: rgba(156, 214, 255, 0.342);
-	border-left: 6px solid #1b8bdb;
+	box-shadow: #87cdff 1.95px 1.95px 8px;
 }
-.about-info .service-title h5{
+.about-info .service-title h5,
+.portfolio .ios-toolbar p a{
 	color: #1b8bdb;
 }
 .progress-details .progress-line{
