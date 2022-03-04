@@ -3,10 +3,28 @@
 	border-top: 2px solid #11588a;
 	border-bottom: 2px solid #11588a;
 }
+.main-navigation a,
+.carousel-nav a{
+	color: #1168a7;
+}
+.main-navigation a:hover {
+	border-top: 2px solid #1c79bb;
+	border-bottom: 2px solid #1c79bb;
+	color: #1c79bb;
+}
+.main-navigation a.active {
+	border-top: 2px solid #1c79bb;
+	border-bottom: 2px solid #1c79bb;
+	color: #1c79bb;
+}
 .header-section,
 .site-footer{
 	background-color: #7f5a83;
 	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+.portfolio .work-box{
+	box-shadow: rgba(76, 222, 248, 0.432) 1.95px 1.95px 2.6px;
+	background: rgba(156, 214, 255, 0.342);
 }
 .about-us{
 	background: rgba(156, 214, 255, 0.342);
@@ -32,33 +50,20 @@
 	background-color: #134b74;
 }
 .carousel-nav {
-	border-bottom: 2px solid #bebebe;
+	border-bottom: 1px solid #bebebe;
 }
-.carousel-nav a,
 .specs .website-process h1{
-	color: #11588a;
+	color: #1c79bb;
 }
 .carousel-nav a:hover {
 	color: #1c79bb;
 }
+.about-us .about-details p a,
 .carousel-nav a.active {
 	color: #1c79bb;
 }
 .carousel-nav a.active:before {
 	border-bottom: 1px solid #1c79bb;
-}
-.main-navigation a{
-	color: #11588a;
-}
-.main-navigation a:hover {
-	border-top: 2px solid #1c79bb;
-	border-bottom: 2px solid #1c79bb;
-	color: #1c79bb !important;
-}
-.main-navigation a.active {
-	border-top: 2px solid #1c79bb;
-	border-bottom: 2px solid #1c79bb;
-	color: #1c79bb !important;
 }
 .text-box a{
 	color: #eee;
@@ -81,9 +86,14 @@
 .testimonial-item h3{
     color: #134b74;
 }
+.work-content .w-more h1 a,
+.w-title a,
+.work-content .portfolio-name a{
+	color: #017cd4;
+}
 .media-29101 .text .category,
 .section-subtitle {
-	color: #11588a;
+	color: #1c79bb;
 }
 .section-subtitle span:before, 
 .section-subtitle span:after{
@@ -108,9 +118,7 @@
 .testimonial-section .title-background h1{
 	color: #043b63;
 }
-.service-title h1 a{
-	color: #11588a;
-}
+
 .testimonial-section .img-box,
 .testimonial-section .decoration-imgs-item,
 .testimonial-section .decoration-circle-item{
@@ -125,4 +133,24 @@
 }
 .testimonial-section .img-box::after{
 	border-right: 1px solid transparent;
+}
+
+.ribbon.top-right.ribbon-default > small {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #043152), color-stop(100%, #043152));
+	background-image: -moz-linear-gradient(top, #043152 0%, #043152 100%);
+	background-image: -webkit-linear-gradient(top, #043152 0%, #043152 100%);
+	background-image: linear-gradient(to bottom, #11588a 0%, #11588a 100%);
+	background-color: #001c30;
+	-moz-box-shadow: 0 3px 6px -3px #001c30;
+	-webkit-box-shadow: 0 3px 6px -3px #001c30;
+	box-shadow: 0 3px 6px -3px #001c30;
+}
+.ribbon.top-right.ribbon-default > small:before,
+.ribbon.top-right.ribbon-default > small:after {
+	border-top: 3px solid #043152;
+}
+
+.custom-add{
+	box-shadow: rgba(76, 222, 248, 0.432) 1.95px 1.95px 2.6px;
+	background: #ddf1ff;
 }
