@@ -198,8 +198,7 @@
         margin-bottom: 0px;
     }
     .service-title h1{
-        font-size: 16px !important;
-        width: 98%;
+        padding: 0px;
     }
     .service-title h5{
         font-size: 26px !important;
@@ -283,6 +282,9 @@
     /** Portfolio section start **/
     .portfolio {
         padding-top: 30px;
+    }
+    .work-box{
+        margin-right: 5px !important;
     }
     .w-title {
         font-size: 16px;
