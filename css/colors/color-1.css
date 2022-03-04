@@ -3,7 +3,8 @@
 	border-top: 2px solid #11588a;
 	border-bottom: 2px solid #11588a;
 }
-.header-section{
+.header-section,
+.site-footer{
 	background-color: #7f5a83;
 	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
@@ -12,10 +13,13 @@
 	box-shadow: #87cdff 1.95px 1.95px 8px;
 }
 .about-info .service-title h5,
-.portfolio .ios-toolbar p a{
+.portfolio .ios-toolbar p a,
+.custom-add .inner-content p span,
+.custom-add .inner-content h4 a{
 	color: #1b8bdb;
 }
-.progress-details .progress-line{
+.progress-details .progress-line,
+.custom-add .inner-content a{
 	background: #44b1ff;
 }
 .progress-details {
@@ -23,7 +27,8 @@
 }
 .style-switcher-toggler,
 .testimonial-section .carousel-control-prev,
-.testimonial-section .carousel-control-next{
+.testimonial-section .carousel-control-next,
+.genericon-collapse:before{
 	background-color: #134b74;
 }
 .carousel-nav {
