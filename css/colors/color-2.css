@@ -1,0 +1,159 @@
+
+.main-navigation {
+	border-top: 2px solid #686868;
+	border-bottom: 2px solid #686868;
+}
+.main-navigation a,
+.carousel-nav a{
+	color: #727272;
+}
+.main-navigation a:hover {
+	border-top: 2px solid #919191;
+	border-bottom: 2px solid #919191;
+	color: #919191;
+}
+.main-navigation a.active {
+	border-top: 2px solid #919191;
+	border-bottom: 2px solid #919191;
+	color: #919191;
+}
+.header-section,
+.site-footer{
+	background-color: #353535;
+	background-image: linear-gradient(147deg, #2e2e2e 0%, #d7d7d793 74%);
+}
+.portfolio .work-box{
+	box-shadow: rgba(73, 76, 77, 0.432) 1.95px 1.95px 2.6px;
+	background: rgba(230, 230, 230, 0.356);
+}
+.about-us{
+	background: rgba(230, 230, 230, 0.356);
+	box-shadow: #818181 1.95px 1.95px 8px;
+}
+.about-info .service-title h5,
+.portfolio .ios-toolbar p a{
+	color: #a3a3a3;
+}
+.custom-add .inner-content p span,
+.custom-add .inner-content h4 a{
+	color: #686868;
+}
+.progress-details .progress-line,
+.custom-add .inner-content a{
+	background: #acacac;
+}
+.progress-details {
+	background: #797979;
+}
+.style-switcher-toggler,
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next,
+.genericon-collapse:before{
+	background-color: #5a5a5a;
+}
+.carousel-nav {
+	border-bottom: 1px solid #bebebe;
+}
+.specs .website-process h1{
+	color: #919191;
+}
+.carousel-nav a:hover {
+	color: #919191;
+}
+.about-us .about-details p a{
+	color: #afafaf;
+}
+.carousel-nav a.active {
+	color: #919191;
+}
+.carousel-nav a.active:before {
+	border-bottom: 1px solid #919191;
+}
+.text-box a{
+	color: #eee;
+	background: #5a5a5a;
+}
+.text-box a:hover{
+	color: #5a5a5a;
+	background: #eee;
+}
+.text-box .second-btn{
+	color: #5a5a5a;
+	background: #eee;
+}
+.text-box .second-btn:hover{
+	color: #eee;
+	background: #5a5a5a;
+}
+.class-info h3,
+.class-info p a,
+.testimonial-item h3{
+    color: #5a5a5a;
+}
+.work-content .w-more h1 a,
+.w-title a,
+.work-content .portfolio-name a{
+	color: #afafaf;
+}
+.media-29101 .text .category,
+.section-subtitle {
+	color: #919191;
+}
+.section-subtitle span:before, 
+.section-subtitle span:after{
+	background: #686868;
+}
+.media-29101 .text h1 {
+	background: #797979;
+	color: #fff;
+	border-left: 4px solid #acacac;
+}
+.specs .website-process h1 ion-icon{
+	background: #797979;
+}
+.service-title h5{
+    color: #686868;
+}
+.about-us .title-background h1{
+	color: #979797;
+}
+.portfolio .title-background h1,
+.content .text span,
+.testimonial-section .title-background h1{
+	color: #686868;
+}
+
+.testimonial-section .img-box,
+.testimonial-section .decoration-imgs-item,
+.testimonial-section .decoration-circle-item{
+	background: #5a5a5a;
+}
+.testimonial-section .img-box::before,
+.testimonial-section .img-box::after{
+	border: 1px solid #5a5a5a;
+}
+.testimonial-section .img-box::before{
+	border-left: 1px solid transparent;
+}
+.testimonial-section .img-box::after{
+	border-right: 1px solid transparent;
+}
+
+.ribbon.top-right.ribbon-default > small {
+	background-image: -moz-linear-gradient(top, #686868 0%, #686868 100%);
+	background-image: -webkit-linear-gradient(top, #686868 0%, #686868 100%);
+	background-image: linear-gradient(to bottom, #686868 0%, #686868 100%);
+	background-color: #686868;
+	-moz-box-shadow: 0 3px 6px -3px #2b2b2b;
+	-webkit-box-shadow: 0 3px 6px -3px #2b2b2b;
+	box-shadow: 0 3px 6px -3px #2b2b2b;
+}
+.ribbon.top-right.ribbon-default > small:before,
+.ribbon.top-right.ribbon-default > small:after {
+	border-top: 3px solid #000;
+}
+
+.custom-add{
+	box-shadow: rgba(65, 65, 65, 0.432) 1.95px 1.95px 2.6px;
+	background: #F6F6F6;
+}
